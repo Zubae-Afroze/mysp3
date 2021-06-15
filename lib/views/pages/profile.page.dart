@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
-import 'package:meetup/constants/app_strings.dart';
 import 'package:meetup/view_models/profile.vm.dart';
 import 'package:meetup/widgets/base.page.dart';
 import 'package:meetup/widgets/cards/profile.card.dart';
@@ -81,17 +80,17 @@ class _ProfilePageState extends State<ProfilePage>
                   .make(),
 
               //
-              "Copyright ©%s %s all right reserved"
-                  .i18n
-                  .fill([
-                    "${DateTime.now().year}",
-                    AppStrings.companyName,
-                  ])
-                  .text
-                  .center
-                  .sm
-                  .makeCentered()
-                  .py20(),
+              // "Copyright ©%s %s all right reserved"
+              //     .i18n
+              //     .fill([
+              //       "${DateTime.now().year}",
+              //       AppStrings.companyName,
+              //     ])
+              //     .text
+              //     .center
+              //     .sm
+              //     .makeCentered()
+              //     .py20(),
             ],
           ).p20().scrollVertical(),
         );

@@ -2,11 +2,11 @@
 
 class Api {
   static String get baseUrl {
-    return "https://meetup.thesnaptask.com/api";
+    return "https://meet.mysp3.life/api";
   }
 
   static String get webUrl {
-    return "https://meetup.thesnaptask.com";
+    return "https://meet.mysp3.life/";
   }
 
   static const login = "/login";
@@ -22,7 +22,7 @@ class Api {
   static const publicMeetings = "/public/meetings";
   static String get privacyPolicy {
     final webUrl = baseUrl.replaceAll('/api', '');
-    return "$webUrl/privacy/policy";
+    return "$webUrl";
   }
 
   //

@@ -1,6 +1,6 @@
 class AppStrings {
-  static String appName = "MeetUp";
-  static String companyName = "EdenTech";
+  static String appName = "MySp3";
+  static String companyName = "MySp3";
 
   //for app usage
   static String firstTimeOnApp = "first_time";
